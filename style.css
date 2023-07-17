@@ -1078,4 +1078,9 @@ footer a i{
         height: auto;
         width: 300px;
     }
+    .skill-left {
+        padding: 10px 10px 10px 10px;
+        background: #26212178;
+        border-radius: 20px;
+    }
 }
