@@ -500,14 +500,21 @@ section{
 .skills{
     background: var(--secon-bg-color);
 }
-
+/* 
 .skill-main{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-row-gap: 30px;
     grid-column-gap: 50px;
+} */
+
+.skill-left {
+    padding: 10px 200px 10px 200px;
+    background: #26212178;
+    border-radius: 20px;
 }
+
 .skill-bar{
     margin-bottom: 2.3rem;
 }
@@ -545,57 +552,57 @@ section{
 }
 
 .skill-bar .bar .HTML{
-    width: 72%;
+    width: 90%;
     animation: HTML 2s;
 }
 
 .skill-bar .bar .CSS{
-    width: 72%;
+    width: 85%;
     animation: CSS 3s;
 }
 
 .skill-bar .bar .JavaScript{
-    width: 72%;
+    width: 70%;
     animation: JavaScript 4s;
 }
 
 .skill-bar .bar .Dart{
-    width: 72%;
+    width: 90%;
     animation: Dart 5s;
 }
 
 .skill-bar .bar .PHP{
-    width: 72%;
+    width: 85%;
     animation: PHP 6s;
 }
 
 .skill-bar .bar .C{
-    width: 72%;
+    width: 80%;
     animation: C 7s;
 }
 
 .skill-bar .bar .Cpp{
-    width: 72%;
+    width: 70%;
     animation: Cpp 8s;
 }
 
 .skill-bar .bar .Csh{
-    width: 72%;
+    width: 75%;
     animation: Csh 9s;
 }
 
 .skill-bar .bar .Java{
-    width: 72%;
+    width: 75%;
     animation: Java 10s;
 }
 
 .skill-bar .bar .Kotlin{
-    width: 72%;
+    width: 75%;
     animation: Kotlin 11s;
 }
 
 .skill-bar .bar .Python{
-    width: 72%;
+    width: 70%;
     animation: Python 12s;
 }
 
